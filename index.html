@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-      <link rel="stylesheet" href="./fonts/fonts.css" />
-      <link rel="stylesheet" href="./styles/global.css" />
-      <link rel="stylesheet" href="./styles/style.css" />
+      <link rel="stylesheet" href="./fonts/fonts.css"/>
+      <link rel="stylesheet" href="./styles/global.css"/>
+      <link rel="stylesheet" href="./styles/style.css"/>
   </head>
   <body>
     <header class="header content-section">
@@ -33,10 +33,10 @@
       <address class="address">
         <ul class="header__address">
           <li>
-            <a href="tel:+99995555555">+9 999 555 5555</a>
+            <a class="address_link" href="tel:+99995555555">+9 999 555 5555</a>
           </li>
           <li>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            <a class="address_link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           </li>
           <li><p>наб. Принсенграхт 263- 265, Амстердам</p></li>
         </ul>
@@ -47,8 +47,8 @@
         <div class="overlay">
           <h1 class="cover__title">
             <span class="aligned-text aligned-text_left">оно</span>
-            <span class="aligned-text aligned-text_center">тебе</span>
-            <span class="aligned-text aligned-text_right">надо</span>
+            <span class="aligned-text aligned-text_center">теб<span class="letter_space">е</span></span>
+            <span class="aligned-text aligned-text_right">над<span class="letter_space">о</span></span>
           </h1>
           <div class="cover__description">
             <p class="cover__description-text">
@@ -118,12 +118,12 @@
     </main>
     <footer class="footer content-section">
       <address class="address">
-        <ul class="footer__menu-list">
+        <ul class="footer__address">
           <li>
-            <a href="tel:+99995555555">+9 999 555 5555</a>
+            <a class="address_link" href="tel:+99995555555">+9 999 555 5555</a>
           </li>
           <li>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            <a class="address_link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           </li>
           <li><p>наб. Принсенграхт 263- 265, Амстердам</p></li>
         </ul>
@@ -134,21 +134,28 @@
             <a class="footer__menu-link_active">главная</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#">посмотреть лоты</a>
+            <a href="#">посмотреть лоты</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#">об аукционе</a>
+            <a href="#">об аукционе</a>
           </li>
+        </ul>
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#"><img class="footer__social-icon" src="./images/yt.svg" alt="youtube"/></a>
+          <a href="#">
+            <img class="footer__social-icon" src="./images/yt.svg" alt="youtube"/>
+          </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#"><img class="footer__social-icon" src="./images/vk.svg" alt="vk"/></a>
+          <a href="#">
+            <img class="footer__social-icon" src="./images/vk.svg" alt="vk"/>
+          </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#"><img class="footer__social-icon" src="./images/pinterest.svg" alt="pinterest"/></a>
+          <a href="#">
+            <img class="footer__social-icon" src="./images/pinterest.svg" alt="pinterest"/>
+          </a>
         </li>
       </ul>
     </footer>
