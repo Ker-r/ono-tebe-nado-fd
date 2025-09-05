@@ -253,7 +253,7 @@
     width: 1052px;
     min-height: 595px;
     padding: 0 24px 180px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .about__column {
@@ -315,12 +315,14 @@
     grid-column: 1;
     justify-self: start;
     list-style: none;
+    margin-left: -30px;
 }
 
 .footer__menu-list {
     grid-column: 2;
     justify-self: center;
     list-style: none;
+    margin-top: -10px;
 }
 
 .footer__menu-list-item {
@@ -336,6 +338,7 @@
     display: flex;
     justify-self: end;
     gap: 48px;
+    margin-top: -20px;
 }
 
 .footer__social-list-item {
