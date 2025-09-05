@@ -19,10 +19,10 @@
 }
 
 .header__links-list {
-    display: flex; 
-    gap: 34px; /* Отступ */
-    padding: 0; 
-    margin: 0; 
+    display: flex;
+    gap: 34px;
+    padding: 0;
+    margin: 0;
 }
 
 .header__links-list-item {
@@ -75,8 +75,8 @@
 .cover {
     position: relative;
     background-image: url('/ono-tebe-nado-fd/images/cover.jpg');
-    background-size: cover; 
-    background-position: center top; 
+    background-size: cover;
+    background-position: center top;
     z-index: 0;
     width: 1100px;
     height: 757px;
@@ -115,10 +115,12 @@
 
 .aligned-text_center {
     justify-content: center;
+    margin-top: 10px;
 }
 
 .aligned-text_right {
     justify-content: end;
+    margin-top: 15px;
 }
 
 .cover__description {
@@ -210,7 +212,7 @@
     position: relative;
     background-image: url('/ono-tebe-nado-fd/images/card-lot-01.jpg');
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     z-index: 0;
 }
 
@@ -218,7 +220,7 @@
     position: relative;
     background-image: url('/ono-tebe-nado-fd/images/card-lot-02.jpg');
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     z-index: 0;
 }
 
@@ -226,7 +228,7 @@
     position: relative;
     background-image: url('/ono-tebe-nado-fd/images/card-lot-03.jpg');
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     z-index: 0;
 }
 
@@ -278,6 +280,8 @@
     width: 240px;
     height: 240px;
     border-radius: 50%;
+    margin-top: -15px;
+    margin-left: -10px; 
 }
 
 .about__logo-image {
@@ -293,13 +297,15 @@
     text-transform: uppercase;
     padding: 100px 402px 100px 0px;
     white-space: nowrap;
+    margin-top: -30px; /* Поднимаем выше */
+    margin-left: 50px;
 }
 
 .about__text {
     display: grid;
     font-size: 20px;
     gap: 24px;
-
+    margin-left: 50px;
 }
 
 /* Классы для footer */
@@ -318,14 +324,18 @@
 
 .footer__address {
     grid-column: 1;
-    justify-self: start; 
+    justify-self: start;
     list-style: none;
+    margin-top: -15px;
+    margin-left: -10px;
 }
 
 .footer__menu-list {
     grid-column: 2;
-    justify-self: center; 
+    justify-self: center;
     list-style: none;
+    margin-top: -20px;
+    margin-left: -25px;
 }
 
 .footer__menu-list-item {
@@ -339,13 +349,13 @@
 .footer__social-list {
     grid-column: 3;
     display: flex;
-    justify-self: end; 
+    justify-self: end;
     gap: 48px;
+    margin-top: -15px;
 }
 
 .footer__social-list-item {
     list-style: none;
-    
 }
 
 .footer__social-icon {
