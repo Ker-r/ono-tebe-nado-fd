@@ -23,12 +23,13 @@
 .header__links-list-item {
     list-style: circle;
     margin-top: 3px;
+    margin-left: -1px;
 }
 
 .header__links-list-item_no-bullit {
     list-style: none;
     font-size: 18px;
-        margin-top: 3.5px;
+    margin-top: 3.5px;
 }
 
 .header__link-active {
@@ -37,6 +38,8 @@
 
 .header__link {
     font-size: 18px;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
 }
 
 .header__logo {
