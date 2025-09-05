@@ -49,10 +49,9 @@
 }
 
 .address {
-    display: flex;
-    flex-direction: column;
     max-width: 240px;
     justify-self: end;
+    font-style: normal;
 }
 
 .header__address {
@@ -139,8 +138,7 @@
     color: #FFFFFF;
     margin: 0;
     position: relative;
-    font-size: 22px;
-    font-weight: 400px;
+    font-weight: 400;
     word-spacing: 19px;
 }
 
@@ -314,21 +312,20 @@
     gap: 154px;
     justify-items: end;
     align-items: center;
+    font-size: 18px;
 }
 
 .footer__address {
-    grid-column: 1;
     justify-self: start;
     list-style: none;
-    margin-left: -37px;
-    margin-top: 19px;
+    margin-left: -31px;
+    margin-top: 14px;
 }
 
 .footer__menu-list {
-    grid-column: 2;
     justify-self: center;
     list-style: none;
-    margin-top: -18px;
+    margin-top: -23px;
 }
 
 .footer__menu-list-item {
@@ -340,7 +337,6 @@
 }
 
 .footer__social-list {
-    grid-column: 3;
     display: flex;
     justify-self: end;
     gap: 48px;
