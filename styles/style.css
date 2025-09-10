@@ -10,6 +10,7 @@
 
 .header__menu {
     display: flex;
+    gap:34px;
 }
 
 .header__links-list {
@@ -43,8 +44,12 @@
 }
 
 .header__logo {
-    display: block;
-    width: 129.11px;
+    /* display: block; */
+    background-image: url('/ono-tebe-nado-fd/images/logo-black.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 148px;
+    height: 105px;
 }
 
 .header__logo-image {
@@ -54,6 +59,7 @@
 .address {
     max-width: 240px;
     justify-self: end;
+    text-align: left;
     font-style: normal;
 }
 
@@ -62,6 +68,7 @@
     font-size: 18px;
     align-items: flex-start;
     text-decoration: none;
+    line-height: 1.2;
 }
 
 .address_link {
@@ -203,6 +210,7 @@
     position: relative;
     width: 334px;
     min-height: 596px;
+    overflow: hidden;
 }
 
 .card_type_film {
@@ -231,6 +239,7 @@
 
 .card__title {
     font-size: 22px;
+    line-height: 1.2;
     text-transform: uppercase;
     color: #FFFFFF;
     z-index: 2;
@@ -328,7 +337,6 @@
     min-height: 180px;
     padding: 50px 50px 50px;
     gap: 40px;
-    /* align-items: center; */
     max-width: 1200px;
     font-size: 18px;
 }
