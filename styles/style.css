@@ -3,7 +3,7 @@
 
 .header {
     display: grid;
-    grid-template-columns: 1fr min-content 1fr;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 95px 50px 89px 50px;
     min-height: 293px;
@@ -140,13 +140,10 @@
 .cover__description {
     display: flex;
     position: absolute;
-    /* left: 52px;
-    right: 50px; */
     padding: 0 50px;
     bottom: 49px;
     justify-content: space-between;
     align-items: center;
-
     width: 100%;
     box-sizing: border-box;
 }
