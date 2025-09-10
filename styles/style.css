@@ -44,12 +44,9 @@
 }
 
 .header__logo {
-    /* display: block; */
-    background-image: url('/ono-tebe-nado-fd/images/logo-black.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 148px;
-    height: 105px;
+    display: block;
+    
+    width: 129.11px;
 }
 
 .header__logo-image {
