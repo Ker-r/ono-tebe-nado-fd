@@ -332,7 +332,7 @@
     display: grid;
     grid-template-columns: auto 1fr 1fr;
     min-height: 180px;
-    padding: 50px 50px 90px 50px;
+    padding: 50px 50px 85px 50px;
     gap: 40px;
     max-width: 1200px;
     font-size: 18px;
