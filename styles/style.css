@@ -376,14 +376,14 @@
     list-style: none;
     line-height: 1.1;
     align-self: flex-start;
-    margin-top: 27px;
+    margin-top: 25px;
     margin-left: 1px;
     gap: 3px;
 }
 
 .footer__address-name {
     position: relative;
-    bottom: 6px;
+    bottom: 8px;
 }
 
 .footer__address-name_top {
@@ -397,7 +397,7 @@
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    margin-top: 17px;
+    margin-top: 15px;
     margin-left: 100px;
 }
 
@@ -415,7 +415,7 @@
     gap: 47px;
     list-style: none;
     align-self: flex-start;
-    margin-top: 16px;
+    margin-top: 15px;
 }
 
 .footer__social-list-item {
