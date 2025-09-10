@@ -58,6 +58,7 @@
     justify-self: end;
     text-align: left;
     font-style: normal;
+    overflow: hidden;
 }
 
 .header__address {
@@ -92,6 +93,7 @@
     min-height: 757px;
     max-width: 1100px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .overlay {
@@ -183,6 +185,7 @@
 .lots {
     min-height: 723px;
     padding: 189px 24px 148px;
+    box-sizing: border-box;
 }
 
 .lots__heading {
@@ -192,7 +195,6 @@
     position: relative;
     left: 41px;
     bottom: 8px;
-
 }
 
 .lots__card-list {
@@ -360,6 +362,7 @@
     gap: 40px;
     max-width: 1100px;
     font-size: 18px;
+    box-sizing: border-box;
 }
 
 .footer__address {
