@@ -58,7 +58,6 @@
     justify-self: end;
     text-align: left;
     font-style: normal;
-    overflow: hidden;
 }
 
 .header__address {
@@ -141,11 +140,15 @@
 .cover__description {
     display: flex;
     position: absolute;
-    left: 52px;
-    right: 50px;
+    /* left: 52px;
+    right: 50px; */
+    padding: 0 50px;
     bottom: 49px;
     justify-content: space-between;
     align-items: center;
+
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .cover__description-text {
