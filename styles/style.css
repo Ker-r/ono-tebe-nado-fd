@@ -66,7 +66,7 @@
     align-items: flex-start;
     text-decoration: none;
     line-height: 1.2;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .address_link {
@@ -354,6 +354,7 @@
     gap: 25px;
     max-width: 693px;
     width: 100%;
+    margin-top: 1px;
 }
 
 /* Классы для footer */
@@ -376,14 +377,14 @@
     list-style: none;
     line-height: 1.1;
     align-self: flex-start;
-    margin-top: 25px;
+    margin-top: 27px;
     margin-left: 1px;
     gap: 3px;
 }
 
 .footer__address-name {
     position: relative;
-    bottom: 8px;
+    bottom: 6px;
 }
 
 .footer__address-name_top {
@@ -397,7 +398,7 @@
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    margin-top: 15px;
+    margin-top: 17px;
     margin-left: 100px;
 }
 
@@ -415,7 +416,7 @@
     gap: 47px;
     list-style: none;
     align-self: flex-start;
-    margin-top: 15px;
+    margin-top: 16px;
 }
 
 .footer__social-list-item {
