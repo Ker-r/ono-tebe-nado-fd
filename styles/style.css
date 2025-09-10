@@ -193,8 +193,9 @@
     font-size: 40px;
     text-transform: uppercase;
     position: relative;
-    left: 41px;
+    /* left: 41px; */
     bottom: 8px;
+    padding-left: 41px;
 }
 
 .lots__card-list {
@@ -285,6 +286,8 @@
     width: fit-content;
     position: relative;
     top: 29px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 /* Классы для about */
