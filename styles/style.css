@@ -5,12 +5,14 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 95px 50px 100px 50px;
+    padding: 95px 50px 89px 50px;
+    min-height: 293px;
+    max-width: 1100px;
 }
 
 .header__menu {
     display: flex;
-    gap:34px;
+    gap: 34px;
 }
 
 .header__links-list {
@@ -18,19 +20,15 @@
     gap: 34px;
     padding: 0;
     margin-top: -10px;
-    
 }
 
 .header__links-list-item {
     list-style: circle;
-    margin-top: 3px;
-    margin-left: -1px;
 }
 
 .header__links-list-item_no-bullit {
     list-style: none;
     font-size: 18px;
-    margin-top: 3.5px;
 }
 
 .header__link-active {
@@ -45,8 +43,9 @@
 
 .header__logo {
     display: block;
-    
-    width: 129.11px;
+    width: 129px;
+    position: relative;
+    bottom: 5px;
 }
 
 .header__logo-image {
@@ -73,9 +72,14 @@
     border-bottom: 1px solid #000;
     display: inline-block;
     position: relative;
-    top: -7px;
+    bottom: 9px;
 }
 
+.address_name {
+    position: relative;
+    bottom: 5px;
+    left: 2px;
+}
 /* Классы для cover */
 
 .cover {
@@ -115,26 +119,26 @@
 }
 
 .aligned-text_left {
-    margin-top: -5px;
+    margin-top: -2px;
     justify-content: start;
 }
 
 .aligned-text_center {
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 19px;
 }
 
 .aligned-text_right {
     justify-content: end;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 .cover__description {
     display: flex;
     position: absolute;
-    left: 50px;
+    left: 52px;
     right: 50px;
-    bottom: 55px;
+    bottom: 49px;
     justify-content: space-between;
     align-items: center;
 }
@@ -149,6 +153,16 @@
     word-spacing: 19px;
 }
 
+.first_indent {
+    position: relative;
+    left: -2px;
+}
+
+.second_indent {
+    position: relative;
+    left: -3px;
+}
+
 .bet-button {
     background: transparent;
     font-size: 22px;
@@ -158,21 +172,24 @@
     padding: 12px 32px;
     white-space: nowrap;
     position: relative;
+    bottom: 2px;
 }
 
 /* Классы для lots */
 
 .lots {
     min-height: 723px;
-    padding: 180px 24px 120px;
+    padding: 189px 24px 148px;
 }
 
 .lots__heading {
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
-    margin-left: 40px;
-    margin-bottom: 20px;
+    position: relative;
+    left: 41px;
+    bottom: 8px;
+
 }
 
 .lots__card-list {
@@ -180,10 +197,10 @@
     flex-wrap: wrap;
     align-content: center;
     list-style-type: none;
-    margin: 0;
+    margin-top: 19px;
     padding: 0;
     gap: 25px;
-    margin-bottom: 30px;
+    justify-content: center;
 }
 
 .lots__card-list-item {
@@ -209,6 +226,7 @@
     min-height: 596px;
     overflow: hidden;
 }
+
 
 .card_type_film {
     position: relative;
@@ -250,7 +268,7 @@
     color: #FFFFFF;
     z-index: 2;
     position: relative;
-    margin-top: auto;
+    bottom: 5px;
 }
 
 .lots__look-more-link {
@@ -259,6 +277,9 @@
     text-decoration: none;
     margin-left: 40px;
     border-bottom: 1px solid #000;
+    width: fit-content;
+    position: relative;
+    top: 29px;
 }
 
 /* Классы для about */
@@ -267,7 +288,7 @@
     min-height: 595px;
     margin: auto;
     box-sizing: border-box;
-    padding: 0 24px 120px;
+    padding: 0 24px 116px;
     max-width: 1100px;
 }
 
@@ -321,7 +342,7 @@
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    gap: 27px;
+    gap: 26px;
     max-width: 693px;
     width: 100%;
 }
@@ -332,7 +353,7 @@
     display: grid;
     grid-template-columns: auto 1fr 1fr;
     min-height: 180px;
-    padding: 50px 50px 75px 50px;
+    padding: 50px 50px 79px 50px;
     gap: 40px;
     max-width: 1200px;
     font-size: 18px;
@@ -345,8 +366,19 @@
     list-style: none;
     line-height: 1.1;
     align-self: flex-start;
-    margin-top: 20px;
+    margin-top: 28px;
+    margin-left: 1px;
     gap: 3px;
+}
+
+.footer__address-name {
+    position: relative;
+    bottom: 6px;
+}
+
+.footer__address-name_top {
+    position: relative;
+    top: 3px;
 }
 
 .footer__menu-list {
@@ -355,7 +387,7 @@
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    margin-top: 15px;
+    margin-top: 18px;
     margin-left: 100px;
 }
 
@@ -373,7 +405,7 @@
     gap: 47px;
     list-style: none;
     align-self: flex-start;
-    margin-top: 15px;
+    margin-top: 18px;
 }
 
 .footer__social-list-item {
