@@ -20,7 +20,7 @@
     display: flex;
     gap: 34px;
     padding: 0;
-    margin-top: -10px;
+    margin-bottom: 15px;
 }
 
 .header__links-list-item {
@@ -44,7 +44,7 @@
 
 .header__logo {
     display: block;
-    width: 135px;
+    width: 138px;
     position: relative;
     bottom: 5px;
 }
@@ -66,6 +66,7 @@
     align-items: flex-start;
     text-decoration: none;
     line-height: 1.2;
+    margin-bottom: 5px;
 }
 
 .address_link {
@@ -78,7 +79,7 @@
 
 .address_name {
     position: relative;
-    bottom: 5px;
+    bottom: 3px;
     left: 2px;
 }
 /* Классы для cover */
@@ -350,7 +351,7 @@
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    gap: 26px;
+    gap: 25px;
     max-width: 693px;
     width: 100%;
 }
@@ -382,7 +383,7 @@
 
 .footer__address-name {
     position: relative;
-    bottom: 6px;
+    bottom: 8px;
 }
 
 .footer__address-name_top {
