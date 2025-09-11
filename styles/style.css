@@ -48,7 +48,7 @@
     width: 135px;
     height: 95px;
     position: relative;
-    bottom: 8px;
+    bottom: 9px;
 }
 
 .header__logo-image {
@@ -68,7 +68,7 @@
     align-items: flex-start;
     text-decoration: none;
     line-height: 1.2;
-    margin-bottom: 1px;
+    margin-bottom: -1px;
 }
 
 .address_link {
@@ -269,7 +269,7 @@
     position: relative;
     text-decoration: underline;
     text-underline-offset: 3px;
-    bottom: 1px;
+    bottom: 2px;
 }
 
 .card__text {
@@ -347,6 +347,7 @@
     line-height: 1.2;
     margin: 0;
     position: relative;
+    bottom: 1px;
 }
 
 .about__text {
@@ -357,6 +358,7 @@
     max-width: 693px;
     width: 100%;
     position: relative;
+    bottom: 1px;
 }
 
 .split_text {
@@ -396,7 +398,7 @@
 
 .footer__address-name_top {
     position: relative;
-    top: 3px;
+    top: 6px;
 }
 
 .footer__menu-list {
