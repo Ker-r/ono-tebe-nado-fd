@@ -46,8 +46,9 @@
 .header__logo {
     display: block;
     width: 135px;
+    height: 95px;
     position: relative;
-    bottom: 5px;
+    bottom: 8px;
 }
 
 .header__logo-image {
