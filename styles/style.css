@@ -45,7 +45,7 @@
 
 .header__logo {
     display: block;
-    width: 138px;
+    width: 140px;
     position: relative;
     bottom: 5px;
 }
@@ -67,7 +67,7 @@
     align-items: flex-start;
     text-decoration: none;
     line-height: 1.2;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
 }
 
 .address_link {
@@ -268,6 +268,7 @@
     position: relative;
     text-decoration: underline;
     text-underline-offset: 3px;
+    bottom: 1px;
 }
 
 .card__text {
@@ -344,6 +345,8 @@
     font-weight: 700;
     line-height: 1.2;
     margin: 0;
+    position: relative;
+    top: 2px;
 }
 
 .about__text {
@@ -409,6 +412,7 @@
 
 .footer__menu-list-item {
     text-align: center;
+    text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
