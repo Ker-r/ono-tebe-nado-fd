@@ -45,7 +45,7 @@
 
 .header__logo {
     display: block;
-    width: 140px;
+    width: 142px;
     position: relative;
     bottom: 5px;
 }
@@ -80,7 +80,7 @@
 
 .address_name {
     position: relative;
-    bottom: 4px;
+    bottom: 3px;
     left: 2px;
 }
 /* Классы для cover */
@@ -321,7 +321,7 @@
     background-color: #000;
     justify-content: center;
     align-items: center;
-    margin-top: 34px;
+    margin-top: 32px;
 }
 
 .about__logo-image {
@@ -346,7 +346,7 @@
     line-height: 1.2;
     margin: 0;
     position: relative;
-    bottom: 2px;
+    bottom: 3px;
 }
 
 .about__text {
@@ -357,7 +357,7 @@
     max-width: 693px;
     width: 100%;
     position: relative;
-    bottom: 2px;
+    bottom: 3px;
 }
 
 .split_text {
@@ -385,14 +385,14 @@
     list-style: none;
     line-height: 1.1;
     align-self: flex-start;
-    margin-top: 24px;
+    margin-top: 22px;
     margin-left: 1px;
     gap: 3px;
 }
 
 .footer__address-name {
     position: relative;
-    bottom: 8px;
+    bottom: 9px;
 }
 
 .footer__address-name_top {
@@ -406,7 +406,7 @@
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    margin-top: 13px;
+    margin-top: 11px;
     margin-left: 100px;
 }
 
@@ -425,7 +425,7 @@
     gap: 47px;
     list-style: none;
     align-self: flex-start;
-    margin-top: 13px;
+    margin-top: 11px;
 }
 
 .footer__social-list-item {
