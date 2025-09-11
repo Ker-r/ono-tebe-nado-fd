@@ -48,7 +48,7 @@
     width: 135px;
     height: 95px;
     position: relative;
-    bottom: 8px;
+    bottom: 10px;
 }
 
 .header__logo-image {
@@ -68,7 +68,7 @@
     align-items: flex-start;
     text-decoration: none;
     line-height: 1.2;
-    margin-bottom: 3px;
+    margin-bottom: 1px;
 }
 
 .address_link {
@@ -81,7 +81,7 @@
 
 .address_name {
     position: relative;
-    bottom: 3px;
+    bottom: 4px;
     left: 2px;
 }
 /* Классы для cover */
