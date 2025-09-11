@@ -40,6 +40,7 @@
     font-size: 18px;
     text-decoration: none;
     border-bottom: 1px solid #000;
+    margin-left: -1px;
 }
 
 .header__logo {
@@ -79,7 +80,7 @@
 
 .address_name {
     position: relative;
-    bottom: 3px;
+    bottom: 4px;
     left: 2px;
 }
 /* Классы для cover */
@@ -130,7 +131,7 @@
 
 .aligned-text_center {
     justify-content: center;
-    margin-top: 19px;
+    margin-top: 17px;
 }
 
 .aligned-text_right {
@@ -142,7 +143,7 @@
     display: flex;
     position: absolute;
     padding: 0 50px;
-    bottom: 49px;
+    bottom: 50px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -194,8 +195,7 @@
     font-size: 40px;
     text-transform: uppercase;
     position: relative;
-    /* left: 41px; */
-    bottom: 8px;
+    bottom: 10px;
     padding-left: 41px;
 }
 
@@ -232,6 +232,7 @@
     width: 334px;
     min-height: 596px;
     overflow: hidden;
+    bottom: 3px;
 }
 
 
@@ -286,7 +287,7 @@
     border-bottom: 1px solid #000;
     width: fit-content;
     position: relative;
-    top: 29px;
+    top: 28px;
     max-width: 100%;
     box-sizing: border-box;
 }
@@ -321,7 +322,7 @@
     background-color: #000;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 34px;
 }
 
 .about__logo-image {
@@ -354,6 +355,13 @@
     gap: 25px;
     max-width: 693px;
     width: 100%;
+    position: relative;
+    bottom: 2px;
+}
+
+.split_text {
+    position: relative;
+    top: 4px;
 }
 
 /* Классы для footer */
@@ -376,7 +384,7 @@
     list-style: none;
     line-height: 1.1;
     align-self: flex-start;
-    margin-top: 26px;
+    margin-top: 28px;
     margin-left: 1px;
     gap: 3px;
 }
@@ -388,7 +396,7 @@
 
 .footer__address-name_top {
     position: relative;
-    top: 3px;
+    top: 5px;
 }
 
 .footer__menu-list {
@@ -399,6 +407,7 @@
     align-self: flex-start;
     margin-top: 17px;
     margin-left: 100px;
+    
 }
 
 .footer__menu-list-item {
@@ -415,7 +424,7 @@
     gap: 47px;
     list-style: none;
     align-self: flex-start;
-    margin-top: 17px;
+    margin-top: 18px;
 }
 
 .footer__social-list-item {
