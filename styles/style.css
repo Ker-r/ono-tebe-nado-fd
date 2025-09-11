@@ -235,7 +235,6 @@
     bottom: 3px;
 }
 
-
 .card_type_film {
     position: relative;
     background-image: url('/ono-tebe-nado-fd/images/card-lot-01.jpg');
@@ -361,7 +360,7 @@
 
 .split_text {
     position: relative;
-    top: 4px;
+    top: -4px;
 }
 
 /* Классы для footer */
@@ -384,7 +383,7 @@
     list-style: none;
     line-height: 1.1;
     align-self: flex-start;
-    margin-top: 28px;
+    margin-top: 24px;
     margin-left: 1px;
     gap: 3px;
 }
@@ -396,7 +395,7 @@
 
 .footer__address-name_top {
     position: relative;
-    top: 5px;
+    top: 1px;
 }
 
 .footer__menu-list {
@@ -405,7 +404,7 @@
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    margin-top: 17px;
+    margin-top: 16px;
     margin-left: 100px;
     
 }
