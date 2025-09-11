@@ -196,7 +196,7 @@
     font-size: 40px;
     text-transform: uppercase;
     position: relative;
-    bottom: 11px;
+    bottom: 10px;
     padding-left: 41px;
 }
 
@@ -205,7 +205,7 @@
     flex-wrap: wrap;
     align-content: center;
     list-style-type: none;
-    margin-top: 19px;
+    margin-top: 20px;
     padding: 0;
     gap: 25px;
     justify-content: center;
@@ -347,7 +347,6 @@
     line-height: 1.2;
     margin: 0;
     position: relative;
-    bottom: 1px;
 }
 
 .about__text {
@@ -397,7 +396,7 @@
 
 .footer__address-name_top {
     position: relative;
-    top: 1px;
+    top: 3px;
 }
 
 .footer__menu-list {
