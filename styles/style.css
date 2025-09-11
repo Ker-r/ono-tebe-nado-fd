@@ -67,7 +67,7 @@
     align-items: flex-start;
     text-decoration: none;
     line-height: 1.2;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .address_link {
@@ -195,7 +195,7 @@
     font-size: 40px;
     text-transform: uppercase;
     position: relative;
-    bottom: 10px;
+    bottom: 12px;
     padding-left: 41px;
 }
 
@@ -346,7 +346,7 @@
     line-height: 1.2;
     margin: 0;
     position: relative;
-    top: 2px;
+    bottom: 2px;
 }
 
 .about__text {
